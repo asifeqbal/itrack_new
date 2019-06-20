@@ -41,11 +41,11 @@
 
     <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="LoadUrlTimeoutValue" value="60000"/>
-    <preference name="orientation"      value="default" />
+    <preference name="orientation"      value="portrait" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
     <preference name="stay-in-webview"  value="false" />
-    <preference name="webviewbounce"    value="false" />
+    <preference name="webviewbounce"    value="true" />
     <preference name="prerendered-icon" value="true" />
     <preference name="load-url-timeout" value="60000" />
     <preference name="AppendUserAgent" value="MoodleMobile" />
@@ -131,7 +131,7 @@
     <gap:plugin name="cordova-plugin-camera" source="npm" />
     <gap:plugin name="cordova-plugin-media-capture" source="npm" />
     <gap:plugin name="cordova-plugin-device" source="npm" />
-    <gap:plugin name="cordova-plugin-file" source="npm" />
+    <!-- <gap:plugin name="cordova-plugin-file" source="npm" /> -->
     <gap:plugin name="cordova-plugin-file-transfer" source="npm" />
     <gap:plugin name="cordova-plugin-globalization" source="npm" />
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
